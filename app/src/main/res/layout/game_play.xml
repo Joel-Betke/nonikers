@@ -53,15 +53,15 @@
             android:id="@+id/team2score"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/team1score2"
-            android:layout_alignBottom="@+id/team1score2"
+            android:layout_alignBaseline="@+id/team1score"
+            android:layout_alignBottom="@+id/team1score"
             android:layout_alignStart="@+id/team2"
             android:text=""
             android:textAlignment="center"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
         <TextView
-            android:id="@+id/team1score2"
+            android:id="@+id/team1score"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/team1"
@@ -105,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/card"
             android:layout_alignParentBottom="true"
-            android:text="@string/round_1"
+            android:text="@string/round_2"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
