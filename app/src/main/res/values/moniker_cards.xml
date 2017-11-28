@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="monikers_cards">
+        <item>Doge</item>
+        <item>A Russian Nesting Doll</item>
+        <item>Rick Santorum</item>
+        <item>Blacula</item>
+        <item>Georgia O\'Keeffe</item>
+        <item>Ebola</item>
+        <item>A Furry</item>
+        <item>Gallagher</item>
+        <item>Kobayashi</item>
+        <item>Flying Spaghetti Monster</item>
+        <item>Sylvia Plath</item>
+        <item>The Unabomber (Ted Kaczynski)</item>
+        <item>Pablo Escobar</item>
+        <item>El Chupacabra</item>
+        <item>Bill Cosby</item>
+        <item>Bob Fosse</item>
+        <item>Heisenberg</item>
+        <item>Rosie the Riveter</item>
+        <item>A Narwhal</item>
+        <item>Hitler\'s Brain</item>
+        <item>100 Duck-Sized Horses</item>
+        <item>Achilles</item>
+        <item>Che Guevara</item>
+        <item>A Velociraptor</item>
+        <item>Homo Erectus</item>
+        <item>William Howard Taft</item>
+        <item>L. Ron Hubbard</item>
+        <item>Shirtless Vladimir Putin</item>
+        <item>Christopher Walken</item>
+        <item>Baby Jessica</item>
+        <item>Jackson Pollock</item>
+        <item>Caligula</item>
+        <item>Julian Assange</item>
+        <item>The Pied Piper</item>
+        <item>Atlas</item>
+        <item>Pavlov\'s Dog</item>
+        <item>Oscar Pistorius</item>
+        <item>Leeroy Jenkins</item>
+        <item>Lou Gehrig</item>
+        <item>Elian Gonzalez</item>
+        <item>A Raver</item>
+        <item>Al Roker</item>
+        <item>Charlton Heston</item>
+        <item>Jacques Cousteau</item>
+        <item>Mr. Trololo</item>
+        <item>Evander Holyfield\'s ear</item>
+        <item>Hodor</item>
+        <item>A Communist</item>
+        <item>Khalid Sheikh Mohammed</item>
+        <item>The 99%</item>
+        <item>Richard Pryor</item>
+        <item>Rosa Parks</item>
+        <item>An Illusionist</item>
+        <item>A Castrato</item>
+        <item>A Baby Sloth</item>
+        <item>Kurt Cobain</item>
+        <item>Tonya Harding</item>
+        <item>A Mole</item>
+        <item>Prince</item>
+        <item>A Beard</item>
+        <item>God</item>
+        <item>The lady who spilled coffee on herself at McDonald\'s</item>
+        <item>Anne Frank</item>
+        <item>Deep Blue</item>
+        <item>Pee-wee Herman</item>
+        <item>An Oompa Loompa</item>
+        <item>Rapunzel</item>
+        <item>Pac-Man</item>
+        <item>Godzilla</item>
+        <item>Man Hands</item>
+        <item>John Wilkes Booth</item>
+        <item>The Very Hungry Caterpillar</item>
+        <item>A Human Centipede</item>
+        <item>Amelia Earhart</item>
+        <item>Vincent Van Gogh</item>
+        <item>Abraham Lincoln</item>
+        <item>Mr. Owl</item>
+        <item>A Grammar Nazi</item>
+        <item>Yoshi</item>
+        <item>Hannibal Lector</item>
+        <item>A Centaur</item>
+        <item>Dr. Henry Heimlich</item>
+        <item>The Shoe Bomber (Richard Reid)</item>
+        <item>Slimer</item>
+        <item>Magic Mike</item>
+        <item>Drunk Jeff Goldblum</item>
+        <item>Princess Di</item>
+        <item>The Raven</item>
+        <item>The Loch Ness Monster</item>
+        <item>Teddy Ruxpin</item>
+        <item>Rosemary\'s Baby</item>
+        <item>Your Mom</item>
+        <item>The Swedish Chef</item>
+        <item>The Eye of Sauron</item>
+        <item>Bubble Boy</item>
+        <item>Bloody Mary</item>
+        <item>Colonel Sanders</item>
+        <item>O.J. Simpson</item>
+        <item>The Hamburglar</item>
+        <item>A Leper</item>
+        <item>Kahn!</item>
+        <item>The Kaiser</item>
+        <item>A California Raisin</item>
+        <item>A Hungry Hungry Hippo</item>
+        <item>Aunt Jemima</item>
+        <item>Jesus H. Christ</item>
+        <item>The Kraken</item>
+        <item>A TSA Agent</item>
+        <item>A Cylon</item>
+        <item>Splinter</item>
+        <item>Babar</item>
+        <item>The Underwear Bomber</item>
+        <item>Chun-Li</item>
+        <item>The T-1000</item>
+        <item>Cthulhu</item>
+        <item>A Muggle</item>
+        <item>A Fainting Goat</item>
+        <item>Count Chocula</item>
+        <item>Burning Man</item>
+        <item>A Furby</item>
+        <item>Paul Reubens</item>
+        <item>A Sherpa</item>
+        <item>El Nino</item>
+        <item>Ceiling Cat</item>
+        <item>The Yellow Power Ranger</item>
+        <item>The one-armed drummer from Def Leppard</item>
+        <item>Uncle Tom</item>
+        <item>George Washington</item>
+        <item>The Lord of the Dance</item>
+        <item>Goatse</item>
+        <item>P.F. Chang</item>
+        <item>Oedipus</item>
+        <item>A Bleeder</item>
+        <item>A Roomba</item>
+        <item>Teen Wolf</item>
+        <item>Falkor</item>
+        <item>The Trojan Horse</item>
+        <item>A Bro</item>
+        <item>Paula Deen</item>
+        <item>Octomom (Nadya Suleman)</item>
+        <item>A Hoarder</item>
+        <item>A Neanderthal</item>
+        <item>Damien Hirst</item>
+        <item>Deep Throat</item>
+        <item>William Shatner</item>
+        <item>The Tiger Mom</item>
+        <item>Blackfish</item>
+        <item>The Gerber Baby</item>
+        <item>Poppin\' Fresh, the Pillsbury Doughboy</item>
+        <item>Krang</item>
+        <item>Humpty Dumpty</item>
+        <item>A Drone</item>
+        <item>Johannes Kepler</item>
+        <item>Joe Camel</item>
+        <item>Free Willy</item>
+        <item>David Carradine</item>
+        <item>Carlos Danger (Anthony Weiner)</item>
+        <item>John Hancock</item>
+        <item>Joe Biden</item>
+        <item>Kim Jong-il</item>
+        <item>Mr. Rogers</item>
+        <item>A Fetus</item>
+        <item>Alex Trebek with a mustache</item>
+        <item>Alex Trebek without a mustache</item>
+        <item>A Virgin</item>
+        <item>Crocodile Dundee</item>
+        <item>The Kool-Aid Man</item>
+        <item>Andrea Yates</item>
+        <item>Josephine Baker</item>
+        <item>Lance Armstrong</item>
+        <item>John Henry</item>
+        <item>Miss Piggy</item>
+        <item>Anthony Weiner</item>
+        <item>A Lab Rat</item>
+        <item>Tom Selleck\'s Mustache</item>
+        <item>A Close Talker</item>
+        <item>Yoko Ono</item>
+        <item>Roger Ebert</item>
+        <item>Kevin Bacon</item>
+        <item>A Gerbil</item>
+        <item>The Shark from Jaws</item>
+        <item>The Boogeyman</item>
+        <item>Your Evil Twin</item>
+        <item>A T. Rex</item>
+        <item>Rip Van Winkle</item>
+        <item>The Winklevii</item>
+        <item>Colonel Mustard</item>
+        <item>A Swinger</item>
+        <item>Cesar Millan</item>
+        <item>A Nutcracker</item>
+        <item>Rick James</item>
+        <item>Gene Wilder</item>
+        <item>A Werewolf</item>
+        <item>Bob Ross</item>
+        <item>Thomas Kinkade</item>
+        <item>A Planeteer</item>
+        <item>You</item>
+        <item>Honey Boo Boo</item>
+        <item>A Nihilist</item>
+        <item>Phineas Gage</item>
+        <item>Ricardo Montalban</item>
+        <item>A Redshirt</item>
+        <item>David Attenborough</item>
+        <item>A Catholic Priest</item>
+        <item>The Id</item>
+        <item>Yorick</item>
+        <item>Jim Jones</item>
+        <item>A Man from Nantucket</item>
+        <item>Bobby Fischer</item>
+        <item>Rob Ford</item>
+        <item>Oskar Schindler</item>
+        <item>Ouroboros</item>
+        <item>Lot's Wife</item>
+        <item>Catherine the Great</item>
+        <item>Catherine the Great's Horse</item>
+        <item>William Henry Harrison</item>
+        <item>A Horse-Sized Duck</item>
+        <item>Jareth, the Goblin King</item>
+        <item>A Dungeon Master</item>
+        <item>Log Lady</item>
+        <item>Tycho Brahe</item>
+        <item>Cocaine Bear</item>
+        <item>Baby Einstein</item>
+        <item>Anita Hill</item>
+        <item>A dog doing yoga</item>
+        <item>A Streaker</item>
+        <item>Robert Hamilton</item>
+        <item>Dramatic Chipmunk</item>
+        <item>Sting</item>
+        <item>Priapus</item>
+        <item>Your High School Gym Teacher</item>
+        <item>The Noble Savage</item>
+        <item>Bartleby the Scrivener</item>
+        <item>Grape Lady</item>
+        <item>Pedobear</item>
+        <item>Judas Iscariot</item>
+        <item>Lolita</item>
+        <item>Siri</item>
+        <item>Silvio Berlusconi</item>
+        <item>The Dread Pirate Roberts</item>
+        <item>Harry Houdini</item>
+        <item>The Sorcerer\'s Apprentice</item>
+        <item>Koko</item>
+        <item>The 800 Pound Gorilla</item>
+        <item>Charizard</item>
+        <item>Portnoy</item>
+        <item>The Boy Who Cried Wolf</item>
+        <item>Roland the Farter, Flatulist to the King</item>
+        <item>Nicholas Georgiton</item>
+        <item>A Civil War Reenactor</item>
+        <item>Mia Hamm</item>
+        <item>Dr. Quinn, Medicine Woman</item>
+        <item>Captain Ahab</item>
+        <item>Oprah's best friend (Gayle)</item>
+        <item>Skeletor</item>
+        <item>Star Wars Kid</item>
+        <item>A Merman</item>
+        <item>Montezuma</item>
+        <item>A Damsel in Distress</item>
+        <item>Clippy</item>
+        <!--PAGE 30 of 56-->
+    </string-array>
+</resources>

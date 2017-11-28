@@ -5,22 +5,39 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Game {
-    ArrayList<String> used_cards;
-    ArrayList<String> unused_cards;
-    int team1Score;
-    int team2Score;
-    int round;
-    String activeCard;
-    int activeTeam;
-    int initialDeckSize;
+    private ArrayList<String> used_cards;
+    private ArrayList<String> unused_cards;
+    private int team1Score;
+    private int team2Score;
+    private int round;
+    private String activeCard;
+    private int activeTeam;
+    private int initialDeckSize;
 
     public Game(ArrayList<String> cards){
         this.unused_cards = cards;
+        this.used_cards = new ArrayList<>();
         this.initialDeckSize = cards.size();
         this.team1Score = 0;
         this.team2Score = 0;
         this.round = 1;
         this.activeTeam = 1;
+    }
+
+    public Game(ArrayList<String> unused_cards,
+                ArrayList<String> used_cards,
+                int team1Score,
+                int team2Score,
+                int round,
+                int activeTeam
+                ) {
+        this.unused_cards = unused_cards;
+        this.used_cards = used_cards;
+        this.initialDeckSize = unused_cards.size() + used_cards.size();
+        this.team1Score = team1Score;
+        this.team2Score = team2Score;
+        this.round = round;
+        this.activeTeam = activeTeam;
     }
 
     public void incrementTeam1Score(){
@@ -43,9 +60,20 @@ public class Game {
         return this.round;
     }
 
-    public int getActiveTeam(){
-        return this.activeTeam;
+    public void toggleActiveTeam(){
+        switch (this.activeTeam){
+            case(1):
+                this.activeTeam = 2;
+                break;
+            case(2):
+                this.activeTeam = 1;
+                break;
+            default:
+                break;
+        }
     }
+
+    public String getActiveCard() { return this.activeCard; }
 
     public String getRandomUnusedCard(){
         int rand = new Random().nextInt(this.unused_cards.size());
@@ -78,6 +106,32 @@ public class Game {
     }
 
     public int getUsedDeckSize(){
-        return this.unused_cards.size();
+        return this.used_cards.size();
+    }
+
+    public boolean roundOver() {
+        return this.unused_cards.size() == 0;
+    }
+
+    public void nextRound() {
+        this.unused_cards = this.used_cards;
+        this.used_cards = new ArrayList<>();
+        this.round++;
+    }
+
+    public int getActiveTeam() {
+        return this.activeTeam;
+    }
+
+    public ArrayList<String> getUnusedCards() {
+        return this.unused_cards;
+    }
+
+    public ArrayList<String> getUsedCards() {
+        return this.used_cards;
+    }
+
+    public boolean gameOver() {
+        return this.unused_cards.size() == 0 && this.round == 3;
     }
 }

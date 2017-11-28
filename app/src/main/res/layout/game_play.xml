@@ -56,7 +56,7 @@
             android:layout_alignBaseline="@+id/team1score"
             android:layout_alignBottom="@+id/team1score"
             android:layout_alignStart="@+id/team2"
-            android:text=""
+            android:text="0"
             android:textAlignment="center"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
@@ -67,7 +67,7 @@
             android:layout_alignStart="@+id/team1"
             android:layout_below="@+id/team1"
             android:layout_marginTop="12dp"
-            android:text=""
+            android:text="0"
             android:textAlignment="center"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
 
@@ -107,5 +107,14 @@
             android:layout_alignParentBottom="true"
             android:text="@string/round_2"
             android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_above="@+id/card"
+            android:layout_centerHorizontal="true"
+            android:text="30"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
