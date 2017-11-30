@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/roundNumber"
-        android:layout_width="553dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Round Number" />
 
     <TextView
         android:id="@+id/roundRules"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Round Rules" />
+        android:text="@string/round_rules" />
 
     <TextView
         android:id="@+id/activeTeam"
-        android:layout_width="452dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/active_team" />
 
     <Button
-        android:id="@+id/start"
+        android:onClick="start"
+        android:id="@+id/goButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/start" />
+        android:text="@string/go" />
+
 </LinearLayout>
